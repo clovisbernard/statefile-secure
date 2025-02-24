@@ -106,8 +106,6 @@ aws s3 ls s3://your-replicated-bucket-name --region us-east-2
 - If acquiring the lock takes longer than expected, Terraform will output a status message.
 - If Terraform doesn’t output a message, state locking is still occurring if your backend supports it.
 - Terraform has a `force-unlock` command to manually unlock the state if unlocking fails:
-```bash
-```
 
 ---
 
@@ -117,5 +115,6 @@ While this project covers the essentials of securing a Terraform state file, the
 - State Encryption: Enable S3 server-side encryption (SSE-KMS) to encrypt the Terraform state file at rest.
 - Automated Backups: Configure AWS Backup to automate state file backups.
 - Logging & Monitoring: Enable AWS CloudTrail and S3 access logs to monitor state file activity.
+
 These additional measures can further enhance the security, reliability, and recoverability of your Terraform state.
 
