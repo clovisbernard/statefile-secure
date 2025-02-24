@@ -1,6 +1,6 @@
 # 🔒 Secure Terraform State with AWS (S3, DynamoDB & Replication)
 
-This project provides a secure and highly available solution for managing Terraform state files using AWS S3, DynamoDB, and replication mechanisms. It ensures state integrity, availability, and security by implementing best practices such as state locking, versioning, encryption, and cross-region replication.
+This project provides a secure and highly available solution for managing Terraform state files using AWS S3, DynamoDB, and replication mechanisms. It ensures state integrity, availability, and security by implementing best practices such as state locking, versioning, and cross-region replication.
 
 Additionally, the project includes an EC2 instance deployment to validate the infrastructure setup, demonstrating how Terraform can be used effectively in a production environment.
 
